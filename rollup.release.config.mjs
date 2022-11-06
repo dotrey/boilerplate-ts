@@ -1,5 +1,5 @@
-import {terser} from "rollup-plugin-terser";
-import defaultConfig from "./rollup.config";
+import terser from "@rollup/plugin-terser";
+import defaultConfig from "./rollup.config.mjs";
 
 let config = defaultConfig;
 
